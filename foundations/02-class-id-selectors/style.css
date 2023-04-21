@@ -1,0 +1,20 @@
+p{
+    background-color: #ff8beb;
+    font-family: verdana, "DejaVu Sans", sans-serif;
+    text-align: center;
+}
+
+#ii{
+    color: #0000ff;
+    font-size: 36px;
+}
+
+.iii{
+    font-size: 24px;
+}
+
+#iv{
+    background-color: #8bff8b;
+    font-size: 24px;
+    font-weight: bold;
+}
