@@ -2,16 +2,25 @@
 you'll learn about it later. */
 @import url('https://fonts.googleapis.com/css2?family=Besley:ital,wght@0,400;1,900&display=swap');
 
+
+
 body {
   margin: 0;
   background: #eee;
   font-family: Besley, serif;
 }
 
+
+
 .header {
   background: white;
   border-bottom: 1px solid #ddd;
-  box-shadow: 0 0 8px rgba(0,0,0,.1);
+  box-shadow: 0 0 8px rgba(0,2,3,.1);
+  border: 0px dashed green; /*kill ths border*/
+  display: flex;
+  padding: 8px;
+  align-items: center;
+  justify-content: space-between
 }
 
 .profile-image {
@@ -20,6 +29,7 @@ body {
   border-radius: 50%;
   width: 48px;
   height: 48px;
+  border: 0px dashed blue; /*kill ths border*/
 }
 
 .logo {
@@ -27,6 +37,10 @@ body {
   font-size: 32px;
   font-weight: 900;
   font-style: italic;
+  border: 0px dashed yellow; /*kill ths border*/
+  display: flex;
+  align-items: center;
+  padding: 8px;
 }
 
 button {
@@ -35,14 +49,33 @@ button {
   background: rebeccapurple;
   color: white;
   padding: 8px 24px;
+  border: 0px dashed greenyellow; /*kill ths border*/ 
+  display: flex;
+  align-items: center;
+  
 }
 
 a {
   /* this removes the line under our links */
   text-decoration: none;
   color: rebeccapurple;
+  border: 0px dashed aquamarine; /*kill ths border*/
+  gap: 16px; 
 }
 
 ul {
   list-style-type: none;
+  border: 0px dashed firebrick; /*kill ths border*/
+  display: flex;
+  gap: 16px;
+  padding: 0;
 }
+
+
+.right-items, .left-items{
+  border: 0px dashed firebrick; /*kill ths border*/
+  display: flex;
+  align-items: center;
+  gap: 16px;
+}
+

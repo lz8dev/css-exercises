@@ -4,6 +4,7 @@ html, body {
   height: 100%;
 }
 
+
 body {
   font-family: Roboto, sans-serif;
   margin: 0;
@@ -13,6 +14,7 @@ body {
   display: flex;
   align-items: center;
   justify-content: center;
+  border: 0px dotted red; /*kill this border*/
 }
 
 .modal {
@@ -20,6 +22,10 @@ body {
   width: 480px;
   border-radius: 10px;
   box-shadow: 2px 4px 16px rgba(0,0,0,.2);
+  display: flex;
+  border: 0px dotted rebeccapurple; /*kill this border*/
+  padding: 16px;
+  gap: 16px;
 }
 
 .icon {
@@ -33,6 +39,8 @@ body {
   display: flex;
   align-items: center;
   justify-content: center;
+  flex-shrink: 0; /*makes unflexible the icon, with this is no necesary to create a container for itself*/
+  /*margin-right: 10px; not necesary, solved with gap in .modal*/
 }
 
 .close-button {
@@ -55,7 +63,7 @@ button {
 
 button.continue {
   background: royalblue;
-  border: 1px solid royalblue;
+  border: 0px solid royalblue;
   color: white;
 }
 
@@ -64,3 +72,33 @@ button.cancel {
   border: 1px solid #ddd;
   color: royalblue;
 }
+
+.text{
+  margin-bottom: 1em;
+}
+
+/*.right{
+  border: 0px dotted palegreen; kill this border
+}*/
+
+/*.left{
+  border: 0px dotted blue; kill this border
+  align-items: center:
+}*/
+
+.else1{
+  border: 0px dotted aquamarine; /*kill this border*/
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 10px;
+}
+
+/*.else2{
+  border: 0px dotted deeppink; kill this border
+}*/
+
+.header{
+  font-weight:800;
+  font-size: 1.3em;
+}
+
